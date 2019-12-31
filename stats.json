@@ -1,0 +1,963 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.41.4",
+  "hash": "2334cc3f806cc6c322f1",
+  "time": 86,
+  "builtAt": 1577691492258,
+  "publicPath": "",
+  "outputPath": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\dist",
+  "assetsByChunkName": {
+    "pageOne~._splitChunks_src_page1.js~f5659a01": "pageOne~._splitChunks_src_page1.js~f5659a01.bundle.js",
+    "pageThree~._splitChunks_src_page3.js~7b07b56c": "pageThree~._splitChunks_src_page3.js~7b07b56c.bundle.js",
+    "pageTwo~._splitChunks_src_page2.js~82ec7c4e": "pageTwo~._splitChunks_src_page2.js~82ec7c4e.bundle.js",
+    "utils~pageOne~pageThree~pageTwo~._splitChunks_src_c": "utils~pageOne~pageThree~pageTwo~._splitChunks_src_c.bundle.js"
+  },
+  "assets": [
+    {
+      "name": "pageOne~._splitChunks_src_page1.js~f5659a01.bundle.js",
+      "size": 7414,
+      "chunks": [
+        "pageOne~._splitChunks_src_page1.js~f5659a01"
+      ],
+      "chunkNames": [
+        "pageOne~._splitChunks_src_page1.js~f5659a01"
+      ],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "pageThree~._splitChunks_src_page3.js~7b07b56c.bundle.js",
+      "size": 7212,
+      "chunks": [
+        "pageThree~._splitChunks_src_page3.js~7b07b56c"
+      ],
+      "chunkNames": [
+        "pageThree~._splitChunks_src_page3.js~7b07b56c"
+      ],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "pageTwo~._splitChunks_src_page2.js~82ec7c4e.bundle.js",
+      "size": 7414,
+      "chunks": [
+        "pageTwo~._splitChunks_src_page2.js~82ec7c4e"
+      ],
+      "chunkNames": [
+        "pageTwo~._splitChunks_src_page2.js~82ec7c4e"
+      ],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "utils~pageOne~pageThree~pageTwo~._splitChunks_src_c.bundle.js",
+      "size": 2023,
+      "chunks": [
+        "utils~pageOne~pageThree~pageTwo~._splitChunks_src_c"
+      ],
+      "chunkNames": [
+        "utils~pageOne~pageThree~pageTwo~._splitChunks_src_c"
+      ],
+      "info": {},
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "pageOne": {
+      "chunks": [
+        "utils~pageOne~pageThree~pageTwo~._splitChunks_src_c",
+        "pageOne~._splitChunks_src_page1.js~f5659a01"
+      ],
+      "assets": [
+        "utils~pageOne~pageThree~pageTwo~._splitChunks_src_c.bundle.js",
+        "pageOne~._splitChunks_src_page1.js~f5659a01.bundle.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "pageTwo": {
+      "chunks": [
+        "utils~pageOne~pageThree~pageTwo~._splitChunks_src_c",
+        "pageTwo~._splitChunks_src_page2.js~82ec7c4e"
+      ],
+      "assets": [
+        "utils~pageOne~pageThree~pageTwo~._splitChunks_src_c.bundle.js",
+        "pageTwo~._splitChunks_src_page2.js~82ec7c4e.bundle.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "pageThree": {
+      "chunks": [
+        "utils~pageOne~pageThree~pageTwo~._splitChunks_src_c",
+        "pageThree~._splitChunks_src_page3.js~7b07b56c"
+      ],
+      "assets": [
+        "utils~pageOne~pageThree~pageTwo~._splitChunks_src_c.bundle.js",
+        "pageThree~._splitChunks_src_page3.js~7b07b56c.bundle.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "pageOne": {
+      "chunks": [
+        "utils~pageOne~pageThree~pageTwo~._splitChunks_src_c",
+        "pageOne~._splitChunks_src_page1.js~f5659a01"
+      ],
+      "assets": [
+        "utils~pageOne~pageThree~pageTwo~._splitChunks_src_c.bundle.js",
+        "pageOne~._splitChunks_src_page1.js~f5659a01.bundle.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "pageTwo": {
+      "chunks": [
+        "utils~pageOne~pageThree~pageTwo~._splitChunks_src_c",
+        "pageTwo~._splitChunks_src_page2.js~82ec7c4e"
+      ],
+      "assets": [
+        "utils~pageOne~pageThree~pageTwo~._splitChunks_src_c.bundle.js",
+        "pageTwo~._splitChunks_src_page2.js~82ec7c4e.bundle.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "pageThree": {
+      "chunks": [
+        "utils~pageOne~pageThree~pageTwo~._splitChunks_src_c",
+        "pageThree~._splitChunks_src_page3.js~7b07b56c"
+      ],
+      "assets": [
+        "utils~pageOne~pageThree~pageTwo~._splitChunks_src_c.bundle.js",
+        "pageThree~._splitChunks_src_page3.js~7b07b56c.bundle.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "pageOne~._splitChunks_src_page1.js~f5659a01",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 114,
+      "names": [
+        "pageOne~._splitChunks_src_page1.js~f5659a01"
+      ],
+      "files": [
+        "pageOne~._splitChunks_src_page1.js~f5659a01.bundle.js"
+      ],
+      "hash": "d12bc6d4973e8e36b3c2",
+      "siblings": [
+        "utils~pageOne~pageThree~pageTwo~._splitChunks_src_c"
+      ],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "./splitChunks/src/page1.js",
+          "identifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page1.js",
+          "name": "./splitChunks/src/page1.js",
+          "index": 0,
+          "index2": 2,
+          "size": 114,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "pageOne~._splitChunks_src_page1.js~f5659a01"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 20,
+            "building": 11,
+            "dependencies": 8
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page1.js",
+              "loc": "pageOne"
+            }
+          ],
+          "providedExports": [
+            "add",
+            "isFullMark"
+          ],
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "export { add,isFullMark } from './utils'\r\n\r\nconst mark = add(80)\r\nconsole.log(mark)\r\nconsole.log(isFullMark(mark))"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "pageOne",
+          "request": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page1.js",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": "pageThree~._splitChunks_src_page3.js~7b07b56c",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 76,
+      "names": [
+        "pageThree~._splitChunks_src_page3.js~7b07b56c"
+      ],
+      "files": [
+        "pageThree~._splitChunks_src_page3.js~7b07b56c.bundle.js"
+      ],
+      "hash": "349f08f801f25af2fdc1",
+      "siblings": [
+        "utils~pageOne~pageThree~pageTwo~._splitChunks_src_c"
+      ],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "./splitChunks/src/page3.js",
+          "identifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page3.js",
+          "name": "./splitChunks/src/page3.js",
+          "index": 4,
+          "index2": 4,
+          "size": 76,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "pageThree~._splitChunks_src_page3.js~7b07b56c"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 14,
+            "building": 9
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page3.js",
+              "loc": "pageThree"
+            }
+          ],
+          "providedExports": [
+            "reduce"
+          ],
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "export { reduce } from './utils'\r\n\r\nconst num = reduce(10)\r\nconsole.log(num)"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "pageThree",
+          "request": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page3.js",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": "pageTwo~._splitChunks_src_page2.js~82ec7c4e",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 114,
+      "names": [
+        "pageTwo~._splitChunks_src_page2.js~82ec7c4e"
+      ],
+      "files": [
+        "pageTwo~._splitChunks_src_page2.js~82ec7c4e.bundle.js"
+      ],
+      "hash": "237f583bc918e63d62c2",
+      "siblings": [
+        "utils~pageOne~pageThree~pageTwo~._splitChunks_src_c"
+      ],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "./splitChunks/src/page2.js",
+          "identifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page2.js",
+          "name": "./splitChunks/src/page2.js",
+          "index": 3,
+          "index2": 3,
+          "size": 114,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "pageTwo~._splitChunks_src_page2.js~82ec7c4e"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 15,
+            "building": 11,
+            "dependencies": 6
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page2.js",
+              "loc": "pageTwo"
+            }
+          ],
+          "providedExports": [
+            "add",
+            "isFullMark"
+          ],
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "export { add,isFullMark } from './utils'\r\n\r\nconst mark = add(10)\r\nconsole.log(mark)\r\nconsole.log(isFullMark(mark))"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "pageTwo",
+          "request": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page2.js",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": "utils~pageOne~pageThree~pageTwo~._splitChunks_src_c",
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "reason": "split chunk (cache group: utils) (name: utils~pageOne~pageThree~pageTwo)",
+      "size": 341,
+      "names": [
+        "utils~pageOne~pageThree~pageTwo~._splitChunks_src_c"
+      ],
+      "files": [
+        "utils~pageOne~pageThree~pageTwo~._splitChunks_src_c.bundle.js"
+      ],
+      "hash": "24822716a27c90a0cfaa",
+      "siblings": [
+        "pageOne~._splitChunks_src_page1.js~f5659a01",
+        "pageThree~._splitChunks_src_page3.js~7b07b56c",
+        "pageTwo~._splitChunks_src_page2.js~82ec7c4e"
+      ],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "./splitChunks/src/config.js",
+          "identifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\config.js",
+          "name": "./splitChunks/src/config.js",
+          "index": 2,
+          "index2": 0,
+          "size": 24,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "utils~pageOne~pageThree~pageTwo~._splitChunks_src_c"
+          ],
+          "issuer": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\utils.js",
+          "issuerId": "./splitChunks/src/utils.js",
+          "issuerName": "./splitChunks/src/utils.js",
+          "issuerPath": [
+            {
+              "id": "./splitChunks/src/page3.js",
+              "identifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page3.js",
+              "name": "./splitChunks/src/page3.js",
+              "profile": {
+                "factory": 14,
+                "building": 9
+              }
+            },
+            {
+              "id": "./splitChunks/src/utils.js",
+              "identifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\utils.js",
+              "name": "./splitChunks/src/utils.js",
+              "profile": {
+                "factory": 8,
+                "building": 4
+              }
+            }
+          ],
+          "profile": {
+            "factory": 2,
+            "building": 1
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./splitChunks/src/utils.js",
+              "moduleIdentifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\utils.js",
+              "module": "./splitChunks/src/utils.js",
+              "moduleName": "./splitChunks/src/utils.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./config",
+              "loc": "1:0-32"
+            },
+            {
+              "moduleId": "./splitChunks/src/utils.js",
+              "moduleIdentifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\utils.js",
+              "module": "./splitChunks/src/utils.js",
+              "moduleName": "./splitChunks/src/utils.js",
+              "type": "harmony import specifier",
+              "userRequest": "./config",
+              "loc": "12:18-23"
+            }
+          ],
+          "providedExports": [
+            "SCORE"
+          ],
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "export const SCORE = 100"
+        },
+        {
+          "id": "./splitChunks/src/utils.js",
+          "identifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\utils.js",
+          "name": "./splitChunks/src/utils.js",
+          "index": 1,
+          "index2": 1,
+          "size": 317,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "utils~pageOne~pageThree~pageTwo~._splitChunks_src_c"
+          ],
+          "issuer": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page3.js",
+          "issuerId": "./splitChunks/src/page3.js",
+          "issuerName": "./splitChunks/src/page3.js",
+          "issuerPath": [
+            {
+              "id": "./splitChunks/src/page3.js",
+              "identifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page3.js",
+              "name": "./splitChunks/src/page3.js",
+              "profile": {
+                "factory": 14,
+                "building": 9
+              }
+            }
+          ],
+          "profile": {
+            "factory": 8,
+            "building": 4
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./splitChunks/src/page1.js",
+              "moduleIdentifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page1.js",
+              "module": "./splitChunks/src/page1.js",
+              "moduleName": "./splitChunks/src/page1.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./utils",
+              "loc": "1:0-40"
+            },
+            {
+              "moduleId": "./splitChunks/src/page1.js",
+              "moduleIdentifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page1.js",
+              "module": "./splitChunks/src/page1.js",
+              "moduleName": "./splitChunks/src/page1.js",
+              "type": "harmony export imported specifier",
+              "userRequest": "./utils",
+              "loc": "1:0-40"
+            },
+            {
+              "moduleId": "./splitChunks/src/page1.js",
+              "moduleIdentifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page1.js",
+              "module": "./splitChunks/src/page1.js",
+              "moduleName": "./splitChunks/src/page1.js",
+              "type": "harmony export imported specifier",
+              "userRequest": "./utils",
+              "loc": "1:0-40"
+            },
+            {
+              "moduleId": "./splitChunks/src/page2.js",
+              "moduleIdentifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page2.js",
+              "module": "./splitChunks/src/page2.js",
+              "moduleName": "./splitChunks/src/page2.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./utils",
+              "loc": "1:0-40"
+            },
+            {
+              "moduleId": "./splitChunks/src/page2.js",
+              "moduleIdentifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page2.js",
+              "module": "./splitChunks/src/page2.js",
+              "moduleName": "./splitChunks/src/page2.js",
+              "type": "harmony export imported specifier",
+              "userRequest": "./utils",
+              "loc": "1:0-40"
+            },
+            {
+              "moduleId": "./splitChunks/src/page2.js",
+              "moduleIdentifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page2.js",
+              "module": "./splitChunks/src/page2.js",
+              "moduleName": "./splitChunks/src/page2.js",
+              "type": "harmony export imported specifier",
+              "userRequest": "./utils",
+              "loc": "1:0-40"
+            },
+            {
+              "moduleId": "./splitChunks/src/page3.js",
+              "moduleIdentifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page3.js",
+              "module": "./splitChunks/src/page3.js",
+              "moduleName": "./splitChunks/src/page3.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./utils",
+              "loc": "1:0-32"
+            },
+            {
+              "moduleId": "./splitChunks/src/page3.js",
+              "moduleIdentifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page3.js",
+              "module": "./splitChunks/src/page3.js",
+              "moduleName": "./splitChunks/src/page3.js",
+              "type": "harmony export imported specifier",
+              "userRequest": "./utils",
+              "loc": "1:0-32"
+            }
+          ],
+          "providedExports": [
+            "add",
+            "reduce",
+            "isFullMark",
+            "asyncRun"
+          ],
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "import { SCORE } from './config'\r\n\r\nexport const add = function(score) {\r\n  return ++ score\r\n}\r\n\r\nexport const reduce = function(score) {\r\n  return -- score\r\n}\r\n\r\nexport const isFullMark = function(score) {\r\n  return score >= SCORE\r\n}\r\n\r\nexport const asyncRun = function() {\r\n  console.log('异步运行的结果')\r\n}"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "pageOne",
+          "request": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page1.js",
+          "reasons": []
+        },
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "pageThree",
+          "request": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page3.js",
+          "reasons": []
+        },
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "pageTwo",
+          "request": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page2.js",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "./splitChunks/src/config.js",
+      "identifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\config.js",
+      "name": "./splitChunks/src/config.js",
+      "index": 2,
+      "index2": 0,
+      "size": 24,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "utils~pageOne~pageThree~pageTwo~._splitChunks_src_c"
+      ],
+      "issuer": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\utils.js",
+      "issuerId": "./splitChunks/src/utils.js",
+      "issuerName": "./splitChunks/src/utils.js",
+      "issuerPath": [
+        {
+          "id": "./splitChunks/src/page3.js",
+          "identifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page3.js",
+          "name": "./splitChunks/src/page3.js",
+          "profile": {
+            "factory": 14,
+            "building": 9
+          }
+        },
+        {
+          "id": "./splitChunks/src/utils.js",
+          "identifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\utils.js",
+          "name": "./splitChunks/src/utils.js",
+          "profile": {
+            "factory": 8,
+            "building": 4
+          }
+        }
+      ],
+      "profile": {
+        "factory": 2,
+        "building": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./splitChunks/src/utils.js",
+          "moduleIdentifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\utils.js",
+          "module": "./splitChunks/src/utils.js",
+          "moduleName": "./splitChunks/src/utils.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./config",
+          "loc": "1:0-32"
+        },
+        {
+          "moduleId": "./splitChunks/src/utils.js",
+          "moduleIdentifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\utils.js",
+          "module": "./splitChunks/src/utils.js",
+          "moduleName": "./splitChunks/src/utils.js",
+          "type": "harmony import specifier",
+          "userRequest": "./config",
+          "loc": "12:18-23"
+        }
+      ],
+      "providedExports": [
+        "SCORE"
+      ],
+      "optimizationBailout": [],
+      "depth": 2,
+      "source": "export const SCORE = 100"
+    },
+    {
+      "id": "./splitChunks/src/page1.js",
+      "identifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page1.js",
+      "name": "./splitChunks/src/page1.js",
+      "index": 0,
+      "index2": 2,
+      "size": 114,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "pageOne~._splitChunks_src_page1.js~f5659a01"
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 20,
+        "building": 11,
+        "dependencies": 8
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page1.js",
+          "loc": "pageOne"
+        }
+      ],
+      "providedExports": [
+        "add",
+        "isFullMark"
+      ],
+      "optimizationBailout": [],
+      "depth": 0,
+      "source": "export { add,isFullMark } from './utils'\r\n\r\nconst mark = add(80)\r\nconsole.log(mark)\r\nconsole.log(isFullMark(mark))"
+    },
+    {
+      "id": "./splitChunks/src/page2.js",
+      "identifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page2.js",
+      "name": "./splitChunks/src/page2.js",
+      "index": 3,
+      "index2": 3,
+      "size": 114,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "pageTwo~._splitChunks_src_page2.js~82ec7c4e"
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 15,
+        "building": 11,
+        "dependencies": 6
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page2.js",
+          "loc": "pageTwo"
+        }
+      ],
+      "providedExports": [
+        "add",
+        "isFullMark"
+      ],
+      "optimizationBailout": [],
+      "depth": 0,
+      "source": "export { add,isFullMark } from './utils'\r\n\r\nconst mark = add(10)\r\nconsole.log(mark)\r\nconsole.log(isFullMark(mark))"
+    },
+    {
+      "id": "./splitChunks/src/page3.js",
+      "identifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page3.js",
+      "name": "./splitChunks/src/page3.js",
+      "index": 4,
+      "index2": 4,
+      "size": 76,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "pageThree~._splitChunks_src_page3.js~7b07b56c"
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 14,
+        "building": 9
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page3.js",
+          "loc": "pageThree"
+        }
+      ],
+      "providedExports": [
+        "reduce"
+      ],
+      "optimizationBailout": [],
+      "depth": 0,
+      "source": "export { reduce } from './utils'\r\n\r\nconst num = reduce(10)\r\nconsole.log(num)"
+    },
+    {
+      "id": "./splitChunks/src/utils.js",
+      "identifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\utils.js",
+      "name": "./splitChunks/src/utils.js",
+      "index": 1,
+      "index2": 1,
+      "size": 317,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "utils~pageOne~pageThree~pageTwo~._splitChunks_src_c"
+      ],
+      "issuer": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page3.js",
+      "issuerId": "./splitChunks/src/page3.js",
+      "issuerName": "./splitChunks/src/page3.js",
+      "issuerPath": [
+        {
+          "id": "./splitChunks/src/page3.js",
+          "identifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page3.js",
+          "name": "./splitChunks/src/page3.js",
+          "profile": {
+            "factory": 14,
+            "building": 9
+          }
+        }
+      ],
+      "profile": {
+        "factory": 8,
+        "building": 4
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./splitChunks/src/page1.js",
+          "moduleIdentifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page1.js",
+          "module": "./splitChunks/src/page1.js",
+          "moduleName": "./splitChunks/src/page1.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./utils",
+          "loc": "1:0-40"
+        },
+        {
+          "moduleId": "./splitChunks/src/page1.js",
+          "moduleIdentifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page1.js",
+          "module": "./splitChunks/src/page1.js",
+          "moduleName": "./splitChunks/src/page1.js",
+          "type": "harmony export imported specifier",
+          "userRequest": "./utils",
+          "loc": "1:0-40"
+        },
+        {
+          "moduleId": "./splitChunks/src/page1.js",
+          "moduleIdentifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page1.js",
+          "module": "./splitChunks/src/page1.js",
+          "moduleName": "./splitChunks/src/page1.js",
+          "type": "harmony export imported specifier",
+          "userRequest": "./utils",
+          "loc": "1:0-40"
+        },
+        {
+          "moduleId": "./splitChunks/src/page2.js",
+          "moduleIdentifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page2.js",
+          "module": "./splitChunks/src/page2.js",
+          "moduleName": "./splitChunks/src/page2.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./utils",
+          "loc": "1:0-40"
+        },
+        {
+          "moduleId": "./splitChunks/src/page2.js",
+          "moduleIdentifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page2.js",
+          "module": "./splitChunks/src/page2.js",
+          "moduleName": "./splitChunks/src/page2.js",
+          "type": "harmony export imported specifier",
+          "userRequest": "./utils",
+          "loc": "1:0-40"
+        },
+        {
+          "moduleId": "./splitChunks/src/page2.js",
+          "moduleIdentifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page2.js",
+          "module": "./splitChunks/src/page2.js",
+          "moduleName": "./splitChunks/src/page2.js",
+          "type": "harmony export imported specifier",
+          "userRequest": "./utils",
+          "loc": "1:0-40"
+        },
+        {
+          "moduleId": "./splitChunks/src/page3.js",
+          "moduleIdentifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page3.js",
+          "module": "./splitChunks/src/page3.js",
+          "moduleName": "./splitChunks/src/page3.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./utils",
+          "loc": "1:0-32"
+        },
+        {
+          "moduleId": "./splitChunks/src/page3.js",
+          "moduleIdentifier": "C:\\Users\\jie.tong\\Desktop\\demo\\tree-shaking\\splitChunks\\src\\page3.js",
+          "module": "./splitChunks/src/page3.js",
+          "moduleName": "./splitChunks/src/page3.js",
+          "type": "harmony export imported specifier",
+          "userRequest": "./utils",
+          "loc": "1:0-32"
+        }
+      ],
+      "providedExports": [
+        "add",
+        "reduce",
+        "isFullMark",
+        "asyncRun"
+      ],
+      "optimizationBailout": [],
+      "depth": 1,
+      "source": "import { SCORE } from './config'\r\n\r\nexport const add = function(score) {\r\n  return ++ score\r\n}\r\n\r\nexport const reduce = function(score) {\r\n  return -- score\r\n}\r\n\r\nexport const isFullMark = function(score) {\r\n  return score >= SCORE\r\n}\r\n\r\nexport const asyncRun = function() {\r\n  console.log('异步运行的结果')\r\n}"
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": []
+}

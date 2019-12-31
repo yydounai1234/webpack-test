@@ -1,0 +1,1 @@
+(window.webpackJsonpsomeLibName=window.webpackJsonpsomeLibName||[]).push([[2],{4:function(e,n,o){"use strict";o.r(n),o.d(n,"asyncText",(function(){return s}));var s="kokoBest"}}]);
